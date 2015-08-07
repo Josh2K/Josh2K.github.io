@@ -23,13 +23,14 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     segment_id = segment.id
     segment_name = segment.name.encode('utf-8')
     segment_name = re.sub(',', "", segment_name)
+    url = 'www.strava.com/segments/'+str(segment_id)
 
     start_latitude = segment.start_latitude
     start_longitude = segment.start_longitude
     end_latitude = segment.end_latitude
     end_longitude = segment.end_longitude
 
-    tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(friend_colour_dict[topguy]),str(segment_name),str(segment_id))
+    tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(friend_colour_dict[topguy]),str(segment_name),str(segment_id),str(url))
     print 'ID: '+str(id)+'      Segment ID:  '+str(segment_id)+'    Owner:  '+str(topguy)
     return tuple
     
@@ -68,7 +69,7 @@ def main():
     
     
     segoutfile = open('segoutput.csv', 'w')
-    segoutfile.write('id,latitude,longitude,name,type,color,segment_name,segment_id'+'\n')
+    segoutfile.write('id,latitude,longitude,name,type,color,segment_name,segment_id,url'+'\n')
     segoutputlist = []
 
     friend_colour_dict = {}
