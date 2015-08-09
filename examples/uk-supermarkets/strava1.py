@@ -23,7 +23,7 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     segment_id = segment.id
     segment_name = segment.name.encode('utf-8')
     segment_name = re.sub(',', "", segment_name)
-    url = 'www.strava.com/segments/'+str(segment_id)
+    url = 'http://www.strava.com/segments/'+str(segment_id)+'/compare/'
 
     start_latitude = segment.start_latitude
     start_longitude = segment.start_longitude
@@ -76,7 +76,7 @@ def main():
     
 
     for num,j in enumerate(segmentlist):
-        time.sleep(12)
+        time.sleep(6)
         segment = client.get_segment(j)
         
                 
