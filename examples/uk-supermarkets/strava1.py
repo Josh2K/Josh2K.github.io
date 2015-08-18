@@ -46,7 +46,7 @@ def main():
     for line in reader:
         segmentlist.append(line["Segment Id"])
 
-    badsegments = ['4571910','6707104']
+    badsegments = ['4571910','6707104','8002513','5216188']
 
     #get rid of badsegments
     for x in badsegments:
@@ -61,7 +61,7 @@ def main():
         print("{} is Josh's friend.".format(a.firstname))
         
     #colors
-    colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000']
+    colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000','88C6ED','82C341']
 
     #old colours
     #colours = ['DC143C','9932CC','0000FF','00CED1','00CD66','FFD700','00FF00','FFCC66','FFA500','FA8072','7171C6','1D6914','2A4BD7','AD2323','000000']
@@ -73,10 +73,26 @@ def main():
     segoutputlist = []
 
     friend_colour_dict = {}
+    friend_colour_dict['UNCLAIMED'] = '000000'
+    friend_colour_dict['Patrick Santeusanio'] = 'AD2323'
+    friend_colour_dict['Marc Devlin'] = '2A4BD7'
+    friend_colour_dict['Mike Sants'] = '1D6914'
+    friend_colour_dict['Josh Felker'] = '814A19'
+    friend_colour_dict['Yibing Wen'] = '8126C0'
+    friend_colour_dict['Arvind Ramanathan'] = '29D0D0'
+    friend_colour_dict['Mario Born'] = 'FF9233'
+    friend_colour_dict['Sasha Wloski'] = 'FFEE33'
+    friend_colour_dict['Frank Oduro'] = 'FFCDF3'
+    friend_colour_dict['Avalon Powell'] = '575757'
+    friend_colour_dict['Eoin Craigie'] = '88C6ED'
     
-
+    
+    
+    
+    
+    
     for num,j in enumerate(segmentlist):
-        time.sleep(6)
+        time.sleep(5)
         segment = client.get_segment(j)
         
                 
