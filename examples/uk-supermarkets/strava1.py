@@ -94,28 +94,29 @@ def main():
     for num,j in enumerate(segmentlist):
         time.sleep(5)
         segment = client.get_segment(j)
-        
-                
-        
-        #print segment.name
-        
-        leaderboard = client.get_segment_leaderboard(j,following=True) 
-        
-        if not leaderboard:
-            topguy = 'UNCLAIMED'
-        else:
-            topguy = leaderboard[0].athlete_name
+                        
+        try:
+            leaderboard = client.get_segment_leaderboard(j,following=True)
+            if not leaderboard:
+                topguy = 'UNCLAIMED'
+            else:
+                topguy = leaderboard[0].athlete_name
             
-        if not topguy in friend_colour_dict:
-            friend_colour_dict[topguy] = colours.pop()
+            if not topguy in friend_colour_dict:
+                friend_colour_dict[topguy] = colours.pop()
                 
-        #segoutputlist.append(segment_details(num,segment,topguy,friend_colour_dict))
-
-        for z in segment_details(num,segment,topguy,friend_colour_dict):
-            segoutfile.write(str(z)+',')
-        segoutfile.write('\n')
         
-        
+            for z in segment_details(num,segment,topguy,friend_colour_dict):
+                segoutfile.write(str(z)+',')
+            segoutfile.write('\n')
+            
+   
+        except Exception:
+            badoutfile = open('bad_segments.csv', 'a+')
+            badoutfile.write(str(j)+',')
+            badoutfile.close()
+            pass
+                          
 
 if __name__ == "__main__":
   main()
