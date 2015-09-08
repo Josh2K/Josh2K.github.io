@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="examples/uk-supermarkets/base.css" rel="stylesheet" />
+<link href="base.css" rel="stylesheet" />
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -40,7 +40,7 @@
     map = L.mapbox.map('map', 'zetter.i73ka9hn')
       .fitBounds(box);
 
-    url = 'examples/uk-supermarkets/segoutput.csv';
+    url = './segoutput.csv';
     initialSelection = d3.set(['UNCLAIMED','Josh Felker', 'Arvind Ramanathan','Mario Born', 'Patrick Santeusanio','Mike Sants','Marc Devlin','Yibing Wen','Frank Oduro','Avalon Powell','Sasha Wloski','Mathieu Gagné','Eoin Craigie']);
     voronoiMap(map, url, initialSelection);
   </script>
