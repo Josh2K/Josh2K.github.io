@@ -13,6 +13,7 @@ import csv
 import time
 import datetime
 from subprocess import call
+import strava1
 
         
 def main():
