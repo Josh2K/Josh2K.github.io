@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from stravalib.client import Client
 import csv
 import time
+import datetime
 
 def getSec(s):
     l = s.split(':')
@@ -31,7 +32,8 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     end_longitude = segment.end_longitude
 
     tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(friend_colour_dict[topguy]),str(segment_name),str(segment_id),str(url))
-    print 'ID: '+str(id)+'      Segment ID:  '+str(segment_id)+'    Owner:  '+str(topguy)
+    now = datetime.datetime.now()
+    print str(now)+': ID: '+str(id)+'     Segment ID:  '+str(segment_id)+'   Owner:  '+str(topguy)
     return tuple
     
 
@@ -46,7 +48,7 @@ def main():
     for line in reader:
         segmentlist.append(line["Segment Id"])
 
-    badsegments = ['4571910','6707104','8002513','5216188']
+    badsegments = ['4571910','6707104','8002513','5216188','6570485']
 
     #get rid of badsegments
     for x in badsegments:
@@ -62,11 +64,6 @@ def main():
         
     #colors
     colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000','88C6ED','82C341']
-
-    #old colours
-    #colours = ['DC143C','9932CC','0000FF','00CED1','00CD66','FFD700','00FF00','FFCC66','FFA500','FA8072','7171C6','1D6914','2A4BD7','AD2323','000000']
-    
-    
     
     segoutfile = open('segoutput.csv', 'w')
     segoutfile.write('id,latitude,longitude,name,type,color,segment_name,segment_id,url'+'\n')
