@@ -82,7 +82,8 @@ def main():
     friend_colour_dict['Frank Oduro'] = 'FFCDF3'
     friend_colour_dict['Avalon Powell'] = '575757'
     friend_colour_dict['Eoin Craigie'] = '88C6ED'
-    
+
+    friend_count_dict = {}
     
     
     
@@ -98,11 +99,17 @@ def main():
                 topguy = 'UNCLAIMED'
             else:
                 topguy = leaderboard[0].athlete_name
-            
+                            
             if not topguy in friend_colour_dict:
                 friend_colour_dict[topguy] = colours.pop()
-                
-        
+
+            if topguy in friend_count_dict:
+                friend_count_dict[topguy] += 1
+            else:
+                friend_count_dict[topguy] = 1
+
+                      
+            
             for z in segment_details(num,segment,topguy,friend_colour_dict):
                 segoutfile.write(str(z)+',')
             segoutfile.write('\n')
@@ -113,7 +120,15 @@ def main():
             badoutfile.write(str(j)+',')
             badoutfile.close()
             pass
-                          
+
+    segcountoutfile = open('segmentcount.csv', 'w')
+    segcountoutfile.write('name,count'+'\n')
+    for x in friend_count_dict:
+        print str(x)+': '+str(friend_count_dict[x])
+        segcountoutfile.write(str(x)+','+str(friend_count_dict[x])+'\n')
+    segcountoutfile.write('\n')
+    segcountoutfile.close()
+              
 
 if __name__ == "__main__":
   main()
