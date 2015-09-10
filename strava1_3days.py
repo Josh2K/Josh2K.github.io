@@ -21,8 +21,9 @@ def main():
     for i in range(365):
         strava1.main()
         time.sleep(10)
+        commit_comment = 'autorun - '+str(datetime.datetime.now())
         print 'GIT commiting...'
-        call(["git", "commit","-a","-m", "autorun"])
+        call(["git", "commit","-a","-m", commit_comment])
         time.sleep(10)
         print 'GIT pushing...'
         call(["git", "push"])

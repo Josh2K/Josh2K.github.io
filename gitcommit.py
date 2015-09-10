@@ -19,9 +19,9 @@ import strava1
 def main():
     print 'Running parent script'
     time.sleep(10)
-    a = 'josh test'
+    commit_comment = 'autorun - '+str(datetime.datetime.now())
     print 'GIT commiting...'
-    call(["git", "commit","-a","-m", a])
+    call(["git", "commit","-a","-m", commit_comment])
     time.sleep(10)
     print 'GIT pushing...'
     call(["git", "push"])
