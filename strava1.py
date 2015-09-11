@@ -48,9 +48,14 @@ def main():
     for line in reader:
         segmentlist.append(line["Segment Id"])
 
-    badsegments = ['4571910','6707104','8002513','5216188','6570485']
-
     #get rid of badsegments
+    badsegments = []
+    badinfile = open('bad_segments.csv')
+    badreader = csv.DictReader(badinfile)
+    for line in badreader:
+        badsegments.append(line["Segment Id"])
+    print 'Bad Segments: '+str(badsegments)
+    
     for x in badsegments:
         if x in segmentlist:
             segmentlist.remove(x)
@@ -84,10 +89,7 @@ def main():
     friend_colour_dict['Eoin Craigie'] = '88C6ED'
 
     friend_count_dict = {}
-    
-    
-    
-    
+           
     
     for num,j in enumerate(segmentlist):
         time.sleep(5)
@@ -122,10 +124,10 @@ def main():
             pass
 
     segcountoutfile = open('segmentcount.csv', 'w')
-    segcountoutfile.write('name,count'+'\n')
+    segcountoutfile.write('name,colour,count'+'\n')
     for x in friend_count_dict:
         print str(x)+': '+str(friend_count_dict[x])
-        segcountoutfile.write(str(x)+','+str(friend_count_dict[x])+'\n')
+        segcountoutfile.write(str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
     segcountoutfile.write('\n')
     segcountoutfile.close()
               
