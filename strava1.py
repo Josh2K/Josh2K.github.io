@@ -126,8 +126,9 @@ def main():
     segcountoutfile = open('segmentcount.csv', 'w')
     segcountoutfile.write('name,colour,count'+'\n')
     for x in friend_count_dict:
-        print str(x)+': '+str(friend_count_dict[x])
-        segcountoutfile.write(str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
+        if x != 'UNCLAIMED':
+            print str(x)+': '+str(friend_count_dict[x])
+            segcountoutfile.write(str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
     segcountoutfile.write('\n')
     segcountoutfile.close()
               

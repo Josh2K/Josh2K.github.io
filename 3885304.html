@@ -27,7 +27,6 @@
 
 </style>
 <body>
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Over Time ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;Strava2_0&#47;OverTime&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='982' height='742' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Strava2_0&#47;OverTime' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;Strava2_0&#47;OverTime&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script>
@@ -38,16 +37,11 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
 
-var y = d3.scale.linear()
-    .range([height, 0]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom");
 
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left");
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -55,17 +49,42 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data.csv", type, function(error, data) {
+d3.csv("segmentcount.csv", type, function(error, data) {
   if (error) throw error;
 
   x.domain(data.map(function(d) { return d.name; }));
+  
+  
+  var gXAxis = svg.append("g")
+		.attr("class", "x axis")
+		.call(xAxis);
+	gXAxis.selectAll("text")
+		.style("text-anchor", "end")
+		.attr("dx", "-.8em")
+		.attr("dy", ".15em")
+		.attr("transform", "rotate(-50)");
+
+  		
+  var maxWidth = 0;
+  gXAxis.selectAll("text").each(function () {
+		var boxWidth = this.getBBox().width;
+		if (boxWidth > maxWidth) maxWidth = boxWidth;
+	});
+	
+  height = height - maxWidth;
+
+  gXAxis.attr("transform", "translate(0," + height + ")");
+
+  var y = d3.scale.linear()
+    .range([height, 0]);
+	
   y.domain([0, d3.max(data, function(d) { return d.count; })]);
-
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
-
+  
+  var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+			
+			
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
@@ -85,10 +104,11 @@ d3.csv("data.csv", type, function(error, data) {
       .attr("y", function(d) { return y(d.count); })
       .attr("height", function(d) { return height - y(d.count); })
 	  .style('fill', function(d) { return '#' + d.colour } );
-});
+	  
+  });
 
 function type(d) {
-  d.frequency = +d.frequency;
+  d.count = +d.count;
   return d;
 }
 
