@@ -32,7 +32,7 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     end_longitude = segment.end_longitude
 
     tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(friend_colour_dict[topguy]),str(segment_name),str(segment_id),str(url))
-    now = datetime.datetime.now()
+    now = datetime.datetime.now().strftime('%Y-%m-%d')
     print str(now)+': ID: '+str(id)+'     Segment ID:  '+str(segment_id)+'   Owner:  '+str(topguy)
     return tuple
     
@@ -131,6 +131,16 @@ def main():
             segcountoutfile.write(str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
     segcountoutfile.write('\n')
     segcountoutfile.close()
+
+
+    segcountovertimefile = open('segmentcountovertime.csv', 'a+')
+    nowdate = datetime.datetime.now().strftime('%Y-%m-%d')
+    for x in friend_count_dict:
+        if x != 'UNCLAIMED':
+            print str(x)+': '+str(friend_count_dict[x])
+            segcountovertimefile.write(str(nowdate)+','+str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
+    segcountovertimefile.write('\n')
+    segcountovertimefile.close()
               
 
 if __name__ == "__main__":
