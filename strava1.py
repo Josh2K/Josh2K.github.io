@@ -75,18 +75,10 @@ def main():
     segoutputlist = []
 
     friend_colour_dict = {}
-    friend_colour_dict['UNCLAIMED'] = '000000'
-    friend_colour_dict['Patrick Santeusanio'] = 'AD2323'
-    friend_colour_dict['Marc Devlin'] = '2A4BD7'
-    friend_colour_dict['Mike Sants'] = '1D6914'
-    friend_colour_dict['Josh Felker'] = '814A19'
-    friend_colour_dict['Yibing Wen'] = '8126C0'
-    friend_colour_dict['Arvind Ramanathan'] = '29D0D0'
-    friend_colour_dict['Mario Born'] = 'FF9233'
-    friend_colour_dict['Sasha Wloski'] = 'FFEE33'
-    friend_colour_dict['Frank Oduro'] = 'FFCDF3'
-    friend_colour_dict['Avalon Powell'] = '575757'
-    friend_colour_dict['Eoin Craigie'] = '88C6ED'
+    friend_colour_file = open('friend_colour.csv')
+    colourreader = csv.DictReader(friend_colour_file)
+    for line in colourreader:
+        friend_colour_dict[line["name"]] = line["colour"]
 
     friend_count_dict = {}
            
