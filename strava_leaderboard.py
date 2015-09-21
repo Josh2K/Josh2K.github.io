@@ -5,17 +5,71 @@ import re
 import os
 import shutil
 import commands
-import csv
 from bs4 import BeautifulSoup
 import json
 import requests
-
 from stravalib.client import Client
-
-
+from collections import defaultdict
 import csv
 import time
 import datetime
+
+
+def json_convert():
+    infile = open('distance.csv')
+    reader = csv.reader(infile)
+    d_list = defaultdict(list)
+    dict = {}
+    row1 = next(reader)
+
+    for x in reader:
+        distance = float(x[2])
+        d=x[0]
+        p='%Y-%m-%d'
+        epoch = int(time.mktime(time.strptime(d,p)) * 1000) 
+        tuplist = [epoch,distance]
+        name = x[1]
+        d_list[name].append(tuplist)
+
+    friend_colour_dict = {}
+    friend_colour_file = open('friend_colour.csv')
+    colourreader = csv.DictReader(friend_colour_file)
+    for line in colourreader:
+        friend_colour_dict[line["name"]] = line["colour"]
+
+    outfile = open('distance.json', 'w')
+    outfile.write('['+'\n')
+    outfile.close()
+
+    trimmed_d_list = {}
+    for name,tuples in d_list.items():
+        if name in friend_colour_dict:
+            trimmed_d_list[name] = tuples
+
+    for name,tuples in trimmed_d_list.items()[:-1]:
+        if name in friend_colour_dict:
+            singlenamedic = {}
+            singlenamedic["key"] = name
+            singlenamedic["values"] = tuples
+            singlenamedic["color"] = '#'+str(friend_colour_dict[name])
+            with open('distance.json', 'a+') as outfile:
+                json.dump(singlenamedic, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+                outfile.write(','+ '\n')
+
+    for name,tuples in trimmed_d_list.items()[-1:]:
+        if name in friend_colour_dict:
+            singlenamedic = {}
+            singlenamedic["key"] = name
+            singlenamedic["values"] = tuples
+            singlenamedic["color"] = '#'+str(friend_colour_dict[name])
+            with open('distance.json', 'a+') as outfile:
+                json.dump(singlenamedic, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+                outfile.write('\n')
+
+    outfile = open('distance.json', 'a+')
+    outfile.write('\n'+']')
+    outfile.close()   
+  
 
 def getSec(s):
     l = s.split(':')
@@ -90,6 +144,8 @@ def main():
         outfile.write('\n')
     print str(now)+'  :  ACTION:    new data added to '+outfile.name
     outfile.close()
+
+    json_convert()
     
            
 

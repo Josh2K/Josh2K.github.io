@@ -19,7 +19,7 @@
             padding: 0px;
             height: 100%;
             width: 100%;
-        }
+       
     </style>
 </head>
 <body>
@@ -39,7 +39,7 @@
             .x(function(d,i) { return d[0] })
             .y(function(d,i) {return d[1] });
 
-      chart.xAxis.tickFormat (function(d) {
+        chart.xAxis.tickFormat (function(d) {
                 return d3.time.format('%x')(new Date(d))
             });
         chart.x2Axis.tickFormat (function(d) {
