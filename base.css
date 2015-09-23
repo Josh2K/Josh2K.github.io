@@ -42,6 +42,7 @@ p {
 #selected,
 #selections,
 #loading:after,
+
 #about {
   position:absolute;
   background-color: #FFF;
@@ -54,6 +55,7 @@ p {
   bottom: 10px;
   right: 10px;
 }
+
 
 #about.visible {
   width: 200px;

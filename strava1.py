@@ -178,7 +178,7 @@ def main():
            
     
     for num,j in enumerate(segmentlist):
-        time.sleep(5)
+        time.sleep(4)
         segment = client.get_segment(j)
                         
         try:
