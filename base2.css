@@ -41,12 +41,13 @@ p {
 
 #disqus_thread {
   position:absolute;
-  bottom:10px;
-  left: 50px;
+  bottom:43px;
+  left: 10px;
   width:30%;
   background-color: #FFF;
   opacity: 0.8;
   border-radius: 2px;
+  border-radius: 6px;
 }
 
 #selected,
