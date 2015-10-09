@@ -39,6 +39,16 @@ p {
   width:100%;
 }
 
+#disqus_thread {
+  position:absolute;
+  bottom:10px;
+  left: 50px;
+  width:30%;
+  background-color: #FFF;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
 #selected,
 #selections,
 #loading:after,
@@ -140,15 +150,7 @@ p {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-#disqus_thread {
-  position:absolute;
-  bottom:10px;
-  left: 50px;
-  width:30%;
-  background-color: #FFF;
-  opacity: 0.8;
-  border-radius: 2px;
-}
+
 
 .hide,
 .show {
