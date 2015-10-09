@@ -134,9 +134,10 @@ p {
 }
 
 #selected {
+  position:absolute;
   bottom: 10px;
   left: 10px;
-  height: 28px;
+  height: 280px;
 }
 
 #selected h1 {
