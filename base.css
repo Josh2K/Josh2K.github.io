@@ -43,18 +43,6 @@ p {
 #selections,
 #loading:after,
 
-
-
-#disqus_thread {
-  position:absolute;
-  bottom:200px;
-  width:100%;
-  background-color: #FFF;
-  opacity: 0.8;
-  border-radius: 2px;
-}
-
-
 #about {
   position:absolute;
   background-color: #FFF;
