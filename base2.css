@@ -41,9 +41,10 @@ p {
 
 #disqus_thread {
   position:absolute;
-  bottom:43px;
+  bottom:48px;
   left: 10px;
-  width:30%;
+  height: 200px;
+  width:100%;
   background-color: #FFF;
   opacity: 0.8;
   border-radius: 2px;
