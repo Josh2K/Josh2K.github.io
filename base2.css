@@ -32,23 +32,26 @@ p {
   pointer-events: none;
 }
 
-#map {
-  position:absolute;
-  top:0;
-  bottom:0;
-  width:100%;
-}
+
 
 #disqus_thread {
   position:absolute;
   bottom:65px;
   left: 10px;
+  right: 10px;
   height: 200px;
   width:100%;
   background-color: #FFF;
   opacity: 0.8;
   border-radius: 2px;
-  
+ 
+}
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
 }
 
 #selected,
