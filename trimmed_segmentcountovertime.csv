@@ -11,6 +11,7 @@ date,name,colour,count
 2015-09-19,Eoin Craigie,158
 2015-09-19,Mathieu Gagné,7
 2015-09-19,Patrick Santeusanio,7
+2015-09-19,Laurie McQueen,0
 2015-09-21,Mario Born,16
 2015-09-21,Marc Devlin,18
 2015-09-21,Sasha Wloski,13
@@ -23,6 +24,7 @@ date,name,colour,count
 2015-09-21,Eoin Craigie,158
 2015-09-21,Mathieu Gagné,7
 2015-09-21,Patrick Santeusanio,7
+2015-09-21,Laurie McQueen,0
 2015-09-22,Mario Born,16
 2015-09-22,Marc Devlin,18
 2015-09-22,Sasha Wloski,13
@@ -47,6 +49,7 @@ date,name,colour,count
 2015-09-22,Eoin Craigie,158
 2015-09-22,Mathieu Gagné,7
 2015-09-22,Patrick Santeusanio,7
+2015-09-22,Laurie McQueen,0
 2015-09-24,Mario Born,16
 2015-09-24,Marc Devlin,18
 2015-09-24,Sasha Wloski,14
@@ -59,6 +62,7 @@ date,name,colour,count
 2015-09-24,Eoin Craigie,158
 2015-09-24,Mathieu Gagné,7
 2015-09-24,Patrick Santeusanio,7
+2015-09-24,Laurie McQueen,0
 2015-09-26,Mario Born,16
 2015-09-26,Marc Devlin,18
 2015-09-26,Sasha Wloski,15
@@ -71,6 +75,7 @@ date,name,colour,count
 2015-09-26,Eoin Craigie,158
 2015-09-26,Mathieu Gagné,7
 2015-09-26,Patrick Santeusanio,7
+2015-09-26,Laurie McQueen,0
 2015-09-27,Mario Born,16
 2015-09-27,Marc Devlin,18
 2015-09-27,Sasha Wloski,15
@@ -83,6 +88,7 @@ date,name,colour,count
 2015-09-27,Eoin Craigie,158
 2015-09-27,Mathieu Gagné,7
 2015-09-27,Patrick Santeusanio,7
+2015-09-27,Laurie McQueen,0
 2015-09-29,Mario Born,16
 2015-09-29,Marc Devlin,18
 2015-09-29,Sasha Wloski,15
@@ -95,6 +101,7 @@ date,name,colour,count
 2015-09-29,Eoin Craigie,158
 2015-09-29,Mathieu Gagné,7
 2015-09-29,Patrick Santeusanio,7
+2015-09-29,Laurie McQueen,0
 2015-10-01,Mario Born,16
 2015-10-01,Marc Devlin,18
 2015-10-01,Sasha Wloski,17
@@ -107,6 +114,7 @@ date,name,colour,count
 2015-10-01,Eoin Craigie,158
 2015-10-01,Mathieu Gagné,7
 2015-10-01,Patrick Santeusanio,7
+2015-10-01,Laurie McQueen,0
 2015-10-02,Mario Born,16
 2015-10-02,Marc Devlin,18
 2015-10-02,Sasha Wloski,17
@@ -119,6 +127,7 @@ date,name,colour,count
 2015-10-02,Eoin Craigie,158
 2015-10-02,Mathieu Gagné,7
 2015-10-02,Patrick Santeusanio,7
+2015-10-02,Laurie McQueen,0
 2015-10-04,Mario Born,16
 2015-10-04,Marc Devlin,18
 2015-10-04,Sasha Wloski,17
@@ -131,6 +140,7 @@ date,name,colour,count
 2015-10-04,Eoin Craigie,158
 2015-10-04,Mathieu Gagné,7
 2015-10-04,Patrick Santeusanio,7
+2015-10-04,Laurie McQueen,0
 2015-10-06,Mario Born,15
 2015-10-06,Marc Devlin,18
 2015-10-06,Sasha Wloski,24
@@ -143,6 +153,7 @@ date,name,colour,count
 2015-10-06,Eoin Craigie,157
 2015-10-06,Mathieu Gagné,7
 2015-10-06,Patrick Santeusanio,7
+2015-10-06,Laurie McQueen,0
 2015-10-07,Mario Born,15
 2015-10-07,Marc Devlin,18
 2015-10-07,Sasha Wloski,26
@@ -155,6 +166,7 @@ date,name,colour,count
 2015-10-07,Eoin Craigie,157
 2015-10-07,Mathieu Gagné,7
 2015-10-07,Patrick Santeusanio,7
+2015-10-07,Laurie McQueen,0
 2015-10-09,Mario Born,15
 2015-10-09,Marc Devlin,18
 2015-10-09,Sasha Wloski,28
@@ -167,6 +179,7 @@ date,name,colour,count
 2015-10-09,Eoin Craigie,157
 2015-10-09,Mathieu Gagné,7
 2015-10-09,Patrick Santeusanio,7
+2015-10-09,Laurie McQueen,0
 2015-10-10,Mario Born,15
 2015-10-10,Marc Devlin,18
 2015-10-10,Sasha Wloski,28
@@ -193,3 +206,16 @@ date,name,colour,count
 2015-10-12,Mathieu Gagné,7
 2015-10-12,Laurie McQueen,2
 2015-10-12,Patrick Santeusanio,7
+2015-10-14,Mario Born,15
+2015-10-14,Marc Devlin,18
+2015-10-14,Sasha Wloski,29
+2015-10-14,Frank Oduro,14
+2015-10-14,Avalon Powell,1
+2015-10-14,Arvind Ramanathan,13
+2015-10-14,Josh Felker,29
+2015-10-14,Yibing Wen,52
+2015-10-14,Mike Sants,36
+2015-10-14,Eoin Craigie,156
+2015-10-14,Mathieu Gagné,7
+2015-10-14,Laurie McQueen,4
+2015-10-14,Patrick Santeusanio,7
