@@ -127,7 +127,8 @@ def segment_details(num,segment,topguy,friend_colour_dict):
 
     tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(friend_colour_dict[topguy]),str(segment_name),str(segment_id),str(url))
     now = datetime.datetime.now().strftime('%Y-%m-%d')
-    print str(now)+': ID: '+str(id)+'     Segment ID:  '+str(segment_id)+'   Owner:  '+str(topguy)
+    print '\r'+'                                                                             ',
+    print '\r'+str(now)+': ID: '+str(id)+'     Segment ID:  '+str(segment_id)+'   Owner:  '+str(topguy),
     return tuple
     
 
@@ -205,7 +206,7 @@ def main():
    
         except Exception:
             badoutfile = open('bad_segments.csv', 'a+')
-            badoutfile.write(str(j)+',')
+            badoutfile.write(str(j)+','+'\n')
             badoutfile.close()
             pass
 
