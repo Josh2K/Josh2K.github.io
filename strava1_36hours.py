@@ -14,19 +14,13 @@ import time
 import datetime
 from subprocess import call
 import strava1
-
+import gitcommit
         
 def main():
     print 'Running parent script'
     for i in range(365):
         strava1.main()
-        time.sleep(10)
-        commit_comment = 'autorun - '+str(datetime.datetime.now())
-        print 'GIT commiting...'
-        call(["git", "commit","-a","-m", commit_comment])
-        time.sleep(10)
-        print 'GIT pushing...'
-        call(["git", "push"])
+        gitcommit.main()
         time.sleep(129600)
 
 

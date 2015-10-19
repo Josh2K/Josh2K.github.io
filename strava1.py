@@ -193,7 +193,7 @@ def main():
     athlete = client.get_athlete()
     print("Hello, {}. I know your email is {}".format(athlete.firstname, athlete.email))
     josh_friends = client.get_athlete_friends(5991862)
-            
+    print "Starting...."        
     #colors
     colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000','88C6ED','82C341']
     
@@ -223,6 +223,7 @@ def main():
                             
             if not topguy in friend_colour_dict:
                 friend_colour_dict[topguy] = colours.pop()
+                print str(topguy)+' not in friend_colour_dict, popping colour: '+ str(friend_colour_dict[topguy])
 
             if topguy in friend_count_dict:
                 friend_count_dict[topguy] += 1
