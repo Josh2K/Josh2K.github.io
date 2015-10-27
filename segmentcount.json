@@ -10,7 +10,7 @@
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 54
+            "value": 56
         }, 
         {
             "color": "#FFEE33", 
@@ -48,6 +48,11 @@
             "value": 12
         }, 
         {
+            "color": "#AD2323", 
+            "label": "Laurie McQueen", 
+            "value": 9
+        }, 
+        {
             "color": "#B7E628", 
             "label": "Patrick Santeusanio", 
             "value": 7
@@ -55,11 +60,6 @@
         {
             "color": "#C7258E", 
             "label": "Mathieu Gagné", 
-            "value": 7
-        }, 
-        {
-            "color": "#AD2323", 
-            "label": "Laurie McQueen", 
             "value": 7
         }, 
         {
