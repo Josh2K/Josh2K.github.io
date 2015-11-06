@@ -8,14 +8,14 @@
             "value": 153
         }, 
         {
+            "color": "#FFEE33", 
+            "label": "Sasha Wloski", 
+            "value": 59
+        }, 
+        {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
             "value": 56
-        }, 
-        {
-            "color": "#FFEE33", 
-            "label": "Sasha Wloski", 
-            "value": 52
         }, 
         {
             "color": "#1D6914", 
@@ -30,7 +30,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 22
+            "value": 21
         }, 
         {
             "color": "#2A4BD7", 
@@ -40,7 +40,7 @@
         {
             "color": "#AD2323", 
             "label": "Laurie McQueen", 
-            "value": 15
+            "value": 17
         }, 
         {
             "color": "#FFCDF3", 
