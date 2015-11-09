@@ -8,14 +8,14 @@
             "value": 153
         }, 
         {
+            "color": "#8126C0", 
+            "label": "Yibing Wen", 
+            "value": 71
+        }, 
+        {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
             "value": 59
-        }, 
-        {
-            "color": "#8126C0", 
-            "label": "Yibing Wen", 
-            "value": 56
         }, 
         {
             "color": "#1D6914", 
@@ -23,14 +23,14 @@
             "value": 34
         }, 
         {
-            "color": "#814A19", 
-            "label": "Josh Felker", 
+            "color": "#FF9233", 
+            "label": "Mario Born", 
             "value": 26
         }, 
         {
-            "color": "#FF9233", 
-            "label": "Mario Born", 
-            "value": 21
+            "color": "#814A19", 
+            "label": "Josh Felker", 
+            "value": 23
         }, 
         {
             "color": "#2A4BD7", 
