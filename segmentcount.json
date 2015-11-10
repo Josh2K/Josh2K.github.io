@@ -15,7 +15,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 59
+            "value": 62
         }, 
         {
             "color": "#1D6914", 
@@ -33,14 +33,14 @@
             "value": 23
         }, 
         {
+            "color": "#AD2323", 
+            "label": "Laurie McQueen", 
+            "value": 21
+        }, 
+        {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
             "value": 18
-        }, 
-        {
-            "color": "#AD2323", 
-            "label": "Laurie McQueen", 
-            "value": 17
         }, 
         {
             "color": "#FFCDF3", 
