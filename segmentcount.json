@@ -5,17 +5,17 @@
         {
             "color": "#88C6ED", 
             "label": "Eoin Craigie", 
-            "value": 152
+            "value": 151
+        }, 
+        {
+            "color": "#FFEE33", 
+            "label": "Sasha Wloski", 
+            "value": 86
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
             "value": 75
-        }, 
-        {
-            "color": "#FFEE33", 
-            "label": "Sasha Wloski", 
-            "value": 71
         }, 
         {
             "color": "#1D6914", 
@@ -28,13 +28,13 @@
             "value": 26
         }, 
         {
-            "color": "#814A19", 
-            "label": "Josh Felker", 
-            "value": 23
-        }, 
-        {
             "color": "#AD2323", 
             "label": "Laurie McQueen", 
+            "value": 24
+        }, 
+        {
+            "color": "#814A19", 
+            "label": "Josh Felker", 
             "value": 23
         }, 
         {
