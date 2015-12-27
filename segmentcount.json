@@ -18,19 +18,19 @@
             "value": 75
         }, 
         {
-            "color": "#1D6914", 
-            "label": "Mike Sants", 
-            "value": 33
-        }, 
-        {
             "color": "#FF9233", 
             "label": "Mario Born", 
             "value": 33
         }, 
         {
+            "color": "#1D6914", 
+            "label": "Mike Sants", 
+            "value": 32
+        }, 
+        {
             "color": "#AD2323", 
             "label": "Laurie McQueen", 
-            "value": 24
+            "value": 25
         }, 
         {
             "color": "#814A19", 
