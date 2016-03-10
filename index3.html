@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="base.css" rel="stylesheet" />
+<link href="base3.css" rel="stylesheet" />
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -48,7 +48,7 @@
     var box = [[45.719182 , -74.023017], [45.380184 ,  -73.436622]];
 	L.mapbox.accessToken = 'pk.eyJ1IjoiemV0dGVyIiwiYSI6ImVvQ3FGVlEifQ.jGp_PWb6xineYqezpSd7wA';
     map = L.mapbox.map('map', 'zetter.i73ka9hn')
-      .fitBounds(box);
+      .fitBounds([[45.509262 , -73.676], [45.447521 , -73.521672]]);
 
     url = './segoutput.csv';
     initialSelection = d3.set(['UNCLAIMED','Josh Felker', 'Arvind Ramanathan','Mario Born', 'Laurie McQueen','Mike Sants','Marc Devlin','Yibing Wen','Frank Oduro','Avalon Powell','Sasha Wloski','Mathieu Gagné','Eoin Craigie','Patrick Santeusanio']);
