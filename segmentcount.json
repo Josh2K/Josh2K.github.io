@@ -10,7 +10,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 95
+            "value": 105
         }, 
         {
             "color": "#8126C0", 
@@ -20,7 +20,7 @@
         {
             "color": "#1D6914", 
             "label": "Mike Sants", 
-            "value": 35
+            "value": 34
         }, 
         {
             "color": "#FF9233", 
@@ -38,11 +38,6 @@
             "value": 25
         }, 
         {
-            "color": "#2A4BD7", 
-            "label": "Marc Devlin", 
-            "value": 18
-        }, 
-        {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
             "value": 15
@@ -51,6 +46,11 @@
             "color": "#29D0D0", 
             "label": "Arvind Ramanathan", 
             "value": 13
+        }, 
+        {
+            "color": "#2A4BD7", 
+            "label": "Marc Devlin", 
+            "value": 12
         }, 
         {
             "color": "#B7E628", 
