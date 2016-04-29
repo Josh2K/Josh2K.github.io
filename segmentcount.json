@@ -5,32 +5,32 @@
         {
             "color": "#88C6ED", 
             "label": "Eoin Craigie", 
-            "value": 145
+            "value": 142
         }, 
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 120
+            "value": 128
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 87
+            "value": 98
         }, 
         {
             "color": "#AD2323", 
             "label": "Laurie McQueen", 
-            "value": 36
-        }, 
-        {
-            "color": "#FF9233", 
-            "label": "Mario Born", 
-            "value": 34
+            "value": 35
         }, 
         {
             "color": "#1D6914", 
             "label": "Mike Sants", 
-            "value": 33
+            "value": 31
+        }, 
+        {
+            "color": "#FF9233", 
+            "label": "Mario Born", 
+            "value": 29
         }, 
         {
             "color": "#814A19", 
@@ -48,7 +48,7 @@
             "value": 12
         }, 
         {
-            "color": "#C7258E", 
+            "color": "#88C6ED", 
             "label": "Mathieu Gagné", 
             "value": 9
         }, 
@@ -61,6 +61,11 @@
             "color": "#29D0D0", 
             "label": "Arvind Ramanathan", 
             "value": 8
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Vitor Lima", 
+            "value": 7
         }, 
         {
             "color": "#575757", 
