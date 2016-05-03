@@ -8,6 +8,7 @@ import commands
 import csv
 from collections import defaultdict
 from stravalib.client import Client
+from retrying import retry
 import csv
 import time
 import datetime
@@ -165,8 +166,15 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     print '\r'+str(now)+': ID: '+str(id)+'     Segment ID:  '+str(segment_id)+'   Owner:  '+str(topguy),
     return tuple
     
-
-        
+@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
+def retry_get_segment(client,j):
+	return client.get_segment(j)
+	
+@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
+def retry_get_leaderboard(client,j):
+	return client.get_segment_leaderboard(j,following=True)
+	
+ 
 def main():
     reload(sys)  
     sys.setdefaultencoding('utf8')
@@ -212,10 +220,10 @@ def main():
     
     for num,j in enumerate(segmentlist):
         time.sleep(4)
-        segment = client.get_segment(j)
+        segment = retry_get_segment(client,j)
                         
         try:
-            leaderboard = client.get_segment_leaderboard(j,following=True)
+            leaderboard = retry_get_leaderboard(client,j)
             if not leaderboard:
                 topguy = 'UNCLAIMED'
             else:

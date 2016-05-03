@@ -21,7 +21,7 @@ def main():
     for i in range(365):
         strava1.main()
         gitcommit.main()
-        time.sleep(129600)
+        time.sleep(86400)
 
 
 if __name__ == "__main__":
