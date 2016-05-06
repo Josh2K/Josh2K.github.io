@@ -5,7 +5,7 @@
         {
             "color": "#88C6ED", 
             "label": "Eoin Craigie", 
-            "value": 140
+            "value": 139
         }, 
         {
             "color": "#FFEE33", 
@@ -50,16 +50,16 @@
         {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
-            "value": 13
-        }, 
-        {
-            "color": "#C7258E", 
-            "label": "Mathieu Gagné", 
-            "value": 9
+            "value": 15
         }, 
         {
             "color": "#FFFFFF", 
             "label": "Patrick Santeusanio", 
+            "value": 8
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Mathieu Gagné", 
             "value": 8
         }, 
         {
