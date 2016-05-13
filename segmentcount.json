@@ -3,19 +3,19 @@
     "key": "Segment Count", 
     "values": [
         {
-            "color": "#88C6ED", 
-            "label": "Eoin Craigie", 
-            "value": 135
-        }, 
-        {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 132
+            "value": 152
+        }, 
+        {
+            "color": "#88C6ED", 
+            "label": "Eoin Craigie", 
+            "value": 128
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 98
+            "value": 100
         }, 
         {
             "color": "#1D6914", 
@@ -35,7 +35,7 @@
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 22
+            "value": 23
         }, 
         {
             "color": "#814A19", 
@@ -50,7 +50,7 @@
         {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
-            "value": 16
+            "value": 9
         }, 
         {
             "color": "#FFFFFF", 
