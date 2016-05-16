@@ -18,19 +18,19 @@
             "value": 100
         }, 
         {
+            "color": "#AD2323", 
+            "label": "Laurie McQueen", 
+            "value": 56
+        }, 
+        {
             "color": "#1D6914", 
             "label": "Mike Sants", 
             "value": 36
         }, 
         {
-            "color": "#AD2323", 
-            "label": "Laurie McQueen", 
-            "value": 35
-        }, 
-        {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 29
+            "value": 28
         }, 
         {
             "color": "#FFCDF3", 
@@ -50,7 +50,7 @@
         {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
-            "value": 9
+            "value": 10
         }, 
         {
             "color": "#FFFFFF", 
