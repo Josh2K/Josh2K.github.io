@@ -10,22 +10,22 @@
         {
             "color": "#9CD0EF", 
             "label": "Eoin Craigie", 
-            "value": 127
+            "value": 126
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 96
-        }, 
-        {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 50
+            "value": 98
         }, 
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 45
+            "value": 54
+        }, 
+        {
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
+            "value": 49
         }, 
         {
             "color": "#1D6914", 
@@ -40,12 +40,12 @@
         {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
-            "value": 27
+            "value": 28
         }, 
         {
             "color": "#814A19", 
             "label": "Josh Felker", 
-            "value": 22
+            "value": 21
         }, 
         {
             "color": "#2A4BD7", 
@@ -53,14 +53,14 @@
             "value": 18
         }, 
         {
-            "color": "#DAFEFA", 
-            "label": "Vincent Trudel-Lapierre", 
-            "value": 9
-        }, 
-        {
             "color": "#FBEFAE", 
             "label": "Leila H", 
-            "value": 7
+            "value": 14
+        }, 
+        {
+            "color": "#DAFEFA", 
+            "label": "Vincent Trudel-Lapierre", 
+            "value": 11
         }, 
         {
             "color": "#FFFFFF", 
@@ -68,13 +68,13 @@
             "value": 7
         }, 
         {
-            "color": "#C7258E", 
-            "label": "Mathieu Gagné", 
-            "value": 7
-        }, 
-        {
             "color": "#29C0C0", 
             "label": "Arvind Ramanathan", 
+            "value": 6
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Mathieu Gagné", 
             "value": 6
         }, 
         {

@@ -14,6 +14,8 @@ import time
 import datetime
 import json
 import operator
+import pandas as pd
+from WarReportLogger import main_logger
 
 
 def trim_count_overtime():
@@ -178,7 +180,10 @@ def retry_get_leaderboard(client,j):
 def main():
     reload(sys)  
     sys.setdefaultencoding('utf8')
-
+    
+    df1 = pd.read_csv('segoutput.csv',index_col=False)
+    df1 = df1.set_index(['segment_id'])
+    
     segmentlist = []
     file = open('segments.csv')
     reader = csv.DictReader(file)
@@ -219,7 +224,7 @@ def main():
            
     
     for num,j in enumerate(segmentlist):
-        time.sleep(4)
+        time.sleep(3.1)
         segment = retry_get_segment(client,j)
                         
         try:
@@ -251,7 +256,10 @@ def main():
             badoutfile.close()
             pass
 
-
+    
+    
+    segoutfile.close()
+    
     #segment count output
     segcountoutfile = open('segmentcount.csv', 'w')
     segcountoutfile.write('name,colour,count'+'\n')
@@ -274,6 +282,19 @@ def main():
     segcountovertimefile.close()
     trim_count_overtime()
     json_convert_trim_count_overtime()
+
+    time.sleep(5)
+    #read newly created segoutput.csv (df2) and compare it to original (df1):
+    df2 = pd.read_csv('segoutput.csv',index_col=False)
+    df2 = df2.set_index(['segment_id'])  
+    try:
+        main_logger(df2,df1)
+    except Exception as e:
+        print 'Error: '+str(e)
+        pass
+    
+    
+    
               
 
 if __name__ == "__main__":
