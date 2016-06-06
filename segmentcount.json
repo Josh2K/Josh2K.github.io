@@ -15,12 +15,17 @@
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 98
+            "value": 94
         }, 
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
             "value": 54
+        }, 
+        {
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
+            "value": 52
         }, 
         {
             "color": "#A03D3D", 
@@ -38,9 +43,9 @@
             "value": 30
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 28
+            "color": "#FBEFAE", 
+            "label": "Leila H", 
+            "value": 23
         }, 
         {
             "color": "#814A19", 
@@ -53,14 +58,9 @@
             "value": 18
         }, 
         {
-            "color": "#FBEFAE", 
-            "label": "Leila H", 
-            "value": 14
-        }, 
-        {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
-            "value": 12
+            "value": 11
         }, 
         {
             "color": "#FFFFFF", 
