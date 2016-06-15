@@ -170,12 +170,12 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     
 @retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
 def retry_get_segment(client,j):
-	return client.get_segment(j)
-	
+    return client.get_segment(j)
+
 @retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
 def retry_get_leaderboard(client,j):
-	return client.get_segment_leaderboard(j,following=True)
-	
+    return client.get_segment_leaderboard(j,following=True)
+
  
 def main():
     reload(sys)  
