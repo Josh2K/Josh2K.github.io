@@ -8,7 +8,7 @@
             "value": 151
         }, 
         {
-            "color": "#9CD0EF", 
+            "color": "#8CC8EC", 
             "label": "Eoin Craigie", 
             "value": 126
         }, 
@@ -20,7 +20,7 @@
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 57
+            "value": 56
         }, 
         {
             "color": "#B7E628", 
@@ -30,7 +30,7 @@
         {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
-            "value": 48
+            "value": 47
         }, 
         {
             "color": "#FF9233", 
@@ -48,7 +48,7 @@
             "value": 22
         }, 
         {
-            "color": "#814A19", 
+            "color": "#BA9778", 
             "label": "Josh Felker", 
             "value": 21
         }, 
@@ -60,10 +60,10 @@
         {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
-            "value": 12
+            "value": 15
         }, 
         {
-            "color": "#C7258E", 
+            "color": "#FF6633", 
             "label": "Henry Jenkins", 
             "value": 8
         }, 
@@ -78,7 +78,7 @@
             "value": 6
         }, 
         {
-            "color": "#88C6ED", 
+            "color": "#C7258E", 
             "label": "Mathieu Gagné", 
             "value": 4
         }, 
