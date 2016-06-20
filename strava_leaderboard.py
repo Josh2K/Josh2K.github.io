@@ -13,6 +13,7 @@ from collections import defaultdict
 import csv
 import time
 import datetime
+import pandas as pd
 
 
 def json_convert():
@@ -115,6 +116,8 @@ def fetch_data(friend,now):
 def main():
     reload(sys)  
     sys.setdefaultencoding('utf8')
+    friend_df = pd.read_csv('warlord_friends.csv')
+    warlord_df = friend_df[friend_df.warlord == True]
    
     
 
@@ -128,8 +131,9 @@ def main():
     josh_friends = client.get_athlete_friends(5991862)
     
     outputlist = []
-    for friend in josh_friends:        
-        outputlist.append(fetch_data(friend,now))
+    for friend in josh_friends:
+        if friend.id in warlord_df.id.values:
+            outputlist.append(fetch_data(friend,now))
     outputlist.append(fetch_data(athlete,now))
 
    
