@@ -106,7 +106,6 @@ def fetch_data(friend,now):
     for row in tablerows:
         if row.find('th').text == 'Distance':
             friend_distance_raw = row.find('td').text
-            print friend_name+': '+str(friend_distance_raw)
             friend_distance = cleanconvert(friend_distance_raw)
     print str(now)+'  :'+friend_name+' - '+str(friend_distance)
     tuple=(str(now),friend_name,friend_distance)
