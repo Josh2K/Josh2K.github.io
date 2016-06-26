@@ -18,24 +18,24 @@
             "value": 96
         }, 
         {
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
+            "value": 52
+        }, 
+        {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
             "value": 49
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 48
-        }, 
-        {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
-            "value": 46
+            "value": 47
         }, 
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 46
+            "value": 45
         }, 
         {
             "color": "#1D6914", 
@@ -63,14 +63,14 @@
             "value": 16
         }, 
         {
-            "color": "#F72304", 
-            "label": "Henry Jenkins", 
-            "value": 9
-        }, 
-        {
             "color": "#FFFFFF", 
             "label": "Patrick Santeusanio", 
             "value": 8
+        }, 
+        {
+            "color": "#F72304", 
+            "label": "Henry Jenkins", 
+            "value": 7
         }, 
         {
             "color": "#29C0C0", 
