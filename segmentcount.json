@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 150
+            "value": 149
         }, 
         {
             "color": "#5CB1E4", 
@@ -15,12 +15,12 @@
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 93
+            "value": 90
         }, 
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 56
+            "value": 73
         }, 
         {
             "color": "#FFCDF3", 
@@ -40,7 +40,7 @@
         {
             "color": "#1D6914", 
             "label": "Mike Sants", 
-            "value": 35
+            "value": 34
         }, 
         {
             "color": "#FBEFAE", 
@@ -48,14 +48,14 @@
             "value": 33
         }, 
         {
-            "color": "#2A4BD7", 
-            "label": "Marc Devlin", 
-            "value": 20
-        }, 
-        {
             "color": "#BA9778", 
             "label": "Josh Felker", 
             "value": 19
+        }, 
+        {
+            "color": "#2A4BD7", 
+            "label": "Marc Devlin", 
+            "value": 17
         }, 
         {
             "color": "#DAFEFA", 
@@ -68,23 +68,23 @@
             "value": 8
         }, 
         {
-            "color": "#F72304", 
-            "label": "Henry Jenkins", 
-            "value": 7
-        }, 
-        {
             "color": "#29C0C0", 
             "label": "Arvind Ramanathan", 
             "value": 6
         }, 
         {
-            "color": "#C7258E", 
-            "label": "Mathieu Gagné", 
-            "value": 4
+            "color": "#F72304", 
+            "label": "Henry Jenkins", 
+            "value": 5
         }, 
         {
             "color": "#575757", 
             "label": "Avalon Powell", 
+            "value": 1
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Mathieu Gagné", 
             "value": 1
         }
     ]
