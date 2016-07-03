@@ -38,13 +38,13 @@
             "value": 47
         }, 
         {
-            "color": "#1D6914", 
-            "label": "Mike Sants", 
-            "value": 34
-        }, 
-        {
             "color": "#FBEFAE", 
             "label": "Leila H", 
+            "value": 33
+        }, 
+        {
+            "color": "#1D6914", 
+            "label": "Mike Sants", 
             "value": 33
         }, 
         {
@@ -65,7 +65,7 @@
         {
             "color": "#FFFFFF", 
             "label": "Patrick Santeusanio", 
-            "value": 8
+            "value": 9
         }, 
         {
             "color": "#29C0C0", 
