@@ -15,6 +15,7 @@ import datetime
 import json
 import operator
 import pandas as pd
+import requests
 from WarReportLogger import main_logger
 
 
