@@ -5,17 +5,17 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 155
+            "value": 154
         }, 
         {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
-            "value": 123
+            "value": 118
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 88
+            "value": 89
         }, 
         {
             "color": "#FF9233", 
@@ -30,7 +30,7 @@
         {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
-            "value": 48
+            "value": 47
         }, 
         {
             "color": "#A03D3D", 
@@ -40,12 +40,12 @@
         {
             "color": "#FBEFAE", 
             "label": "Leila H", 
-            "value": 43
+            "value": 42
         }, 
         {
             "color": "#1D6914", 
             "label": "Mike Sants", 
-            "value": 32
+            "value": 29
         }, 
         {
             "color": "#2A4BD7", 
@@ -55,7 +55,12 @@
         {
             "color": "#BA9778", 
             "label": "Josh Felker", 
-            "value": 19
+            "value": 18
+        }, 
+        {
+            "color": "#F72304", 
+            "label": "Henry Jenkins", 
+            "value": 15
         }, 
         {
             "color": "#DAFEFA", 
@@ -71,11 +76,6 @@
             "color": "#29C0C0", 
             "label": "Arvind Ramanathan", 
             "value": 6
-        }, 
-        {
-            "color": "#F72304", 
-            "label": "Henry Jenkins", 
-            "value": 4
         }, 
         {
             "color": "#575757", 
