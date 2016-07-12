@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 154
+            "value": 160
         }, 
         {
             "color": "#5CB1E4", 
@@ -20,7 +20,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 75
+            "value": 74
         }, 
         {
             "color": "#FFCDF3", 
@@ -76,6 +76,11 @@
             "color": "#29C0C0", 
             "label": "Arvind Ramanathan", 
             "value": 6
+        }, 
+        {
+            "color": "#88C6ED", 
+            "label": "Abdul Rashid", 
+            "value": 1
         }, 
         {
             "color": "#575757", 
