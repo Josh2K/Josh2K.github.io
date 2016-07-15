@@ -78,11 +78,6 @@
             "value": 6
         }, 
         {
-            "color": "#88C6ED", 
-            "label": "Abdul Rashid", 
-            "value": 1
-        }, 
-        {
             "color": "#575757", 
             "label": "Avalon Powell", 
             "value": 1
@@ -90,6 +85,11 @@
         {
             "color": "#C7258E", 
             "label": "Mathieu Gagné", 
+            "value": 1
+        }, 
+        {
+            "color": "#88C6ED", 
+            "label": "Mo Baakoe", 
             "value": 1
         }
     ]
