@@ -45,7 +45,12 @@
         {
             "color": "#1D6914", 
             "label": "Mike Sants", 
-            "value": 29
+            "value": 26
+        }, 
+        {
+            "color": "#BA9778", 
+            "label": "Josh Felker", 
+            "value": 25
         }, 
         {
             "color": "#2A4BD7", 
@@ -53,19 +58,14 @@
             "value": 20
         }, 
         {
-            "color": "#BA9778", 
-            "label": "Josh Felker", 
-            "value": 18
+            "color": "#DAFEFA", 
+            "label": "Vincent Trudel-Lapierre", 
+            "value": 15
         }, 
         {
             "color": "#F72304", 
             "label": "Henry Jenkins", 
-            "value": 15
-        }, 
-        {
-            "color": "#DAFEFA", 
-            "label": "Vincent Trudel-Lapierre", 
-            "value": 15
+            "value": 11
         }, 
         {
             "color": "#FFFFFF", 
