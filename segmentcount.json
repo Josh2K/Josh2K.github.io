@@ -78,13 +78,13 @@
             "value": 6
         }, 
         {
-            "color": "#575757", 
-            "label": "Avalon Powell", 
-            "value": 1
-        }, 
-        {
             "color": "#C7258E", 
             "label": "Mathieu Gagné", 
+            "value": 5
+        }, 
+        {
+            "color": "#575757", 
+            "label": "Avalon Powell", 
             "value": 1
         }, 
         {
