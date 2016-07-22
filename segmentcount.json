@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 160
+            "value": 159
         }, 
         {
             "color": "#5CB1E4", 
@@ -28,14 +28,14 @@
             "value": 56
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
             "value": 48
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 47
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
+            "value": 48
         }, 
         {
             "color": "#FBEFAE", 
@@ -43,14 +43,14 @@
             "value": 42
         }, 
         {
-            "color": "#1D6914", 
-            "label": "Mike Sants", 
+            "color": "#BA9778", 
+            "label": "Josh Felker", 
             "value": 26
         }, 
         {
-            "color": "#BA9778", 
-            "label": "Josh Felker", 
-            "value": 25
+            "color": "#1D6914", 
+            "label": "Mike Sants", 
+            "value": 26
         }, 
         {
             "color": "#2A4BD7", 
