@@ -20,7 +20,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 71
+            "value": 70
         }, 
         {
             "color": "#FFCDF3", 
@@ -40,7 +40,7 @@
         {
             "color": "#FBEFAE", 
             "label": "Leila H", 
-            "value": 42
+            "value": 44
         }, 
         {
             "color": "#1D6914", 
@@ -53,14 +53,14 @@
             "value": 25
         }, 
         {
+            "color": "#DAFEFA", 
+            "label": "Vincent Trudel-Lapierre", 
+            "value": 22
+        }, 
+        {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
             "value": 20
-        }, 
-        {
-            "color": "#DAFEFA", 
-            "label": "Vincent Trudel-Lapierre", 
-            "value": 15
         }, 
         {
             "color": "#F72304", 
