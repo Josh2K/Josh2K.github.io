@@ -43,9 +43,11 @@ def main_logger(df2,df1):
 
 	
 	war_report_dict = {}
+	winner_loser_segment_dict = {}
 	for x in df_changed_to['type'].unique():
 		
 		personcount = defaultdict(int)
+		person_segment_list = defaultdict(list)
 		
 		for y in df_changed_to[df_changed_to['type'] == x].index:
 			
@@ -56,8 +58,10 @@ def main_logger(df2,df1):
 			beatperson_string = str(beatperson_array[0])
 			
 			personcount[beatperson_string] += 1
+			person_segment_list[beatperson_string].append(y)
 			  
 		war_report_dict[x] = personcount
+		winner_loser_segment_dict[x] = person_segment_list
 				   
 	
 
@@ -68,17 +72,17 @@ def main_logger(df2,df1):
 			if victim[0] == 'UNCLAIMED':
 				if victim[1] == 1:
 					print warlord,'claimed',victim[1],'unowned territory'
-					line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territory,NO'
+					line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territory,'+str(winner_loser_segment_dict[warlord][victim[0]])
 				else:
 					print warlord,'claimed',victim[1],'unowned territories'
-					line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territories,NO'
+					line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territories,'+str(winner_loser_segment_dict[warlord][victim[0]])
 			else:
 				if victim[1] == 1:
 					print warlord,'conquered',victim[1],'territory from',victim[0]
-					line = str(now)+','+warlord+' conquered '+str(victim[1])+' territory from '+victim[0]+',NO'
+					line = str(now)+','+warlord+' conquered '+str(victim[1])+' territory from '+victim[0]+','+str(winner_loser_segment_dict[warlord][victim[0]])
 				else:
 					print warlord,'conquered',victim[1],'territories from',victim[0]
-					line = str(now)+','+warlord+' conquered '+str(victim[1])+' territories from '+victim[0]+',NO'
+					line = str(now)+','+warlord+' conquered '+str(victim[1])+' territories from '+victim[0]+','+str(winner_loser_segment_dict[warlord][victim[0]])
 			logfile.write(line+'\n') 
 	logfile.close()
 	
