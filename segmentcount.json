@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 163
+            "value": 164
         }, 
         {
             "color": "#5CB1E4", 
@@ -20,7 +20,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 70
+            "value": 69
         }, 
         {
             "color": "#FFCDF3", 
@@ -43,13 +43,13 @@
             "value": 44
         }, 
         {
-            "color": "#1D6914", 
-            "label": "Mike Sants", 
-            "value": 26
-        }, 
-        {
             "color": "#BA9778", 
             "label": "Josh Felker", 
+            "value": 25
+        }, 
+        {
+            "color": "#1D6914", 
+            "label": "Mike Sants", 
             "value": 25
         }, 
         {
