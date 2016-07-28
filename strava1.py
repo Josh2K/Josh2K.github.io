@@ -252,9 +252,9 @@ def main():
             
    
         except Exception:
-            badoutfile = open('bad_segments.csv', 'a+')
-            badoutfile.write(str(j)+','+'\n')
-            badoutfile.close()
+            #badoutfile = open('bad_segments.csv', 'a+')
+            #badoutfile.write(str(j)+','+'\n')
+            #badoutfile.close()
             pass
 
     
