@@ -28,13 +28,13 @@
             "value": 56
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 48
-        }, 
-        {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
+            "value": 49
+        }, 
+        {
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
             "value": 48
         }, 
         {
@@ -65,7 +65,7 @@
         {
             "color": "#F72304", 
             "label": "Henry Jenkins", 
-            "value": 11
+            "value": 10
         }, 
         {
             "color": "#FFFFFF", 
