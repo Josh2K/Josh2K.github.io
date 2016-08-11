@@ -72,17 +72,21 @@ def main_logger(df2,df1):
 			if victim[0] == 'UNCLAIMED':
 				if victim[1] == 1:
 					print warlord,'claimed',victim[1],'unowned territory'
-					line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territory,'+str(winner_loser_segment_dict[warlord][victim[0]])
+					space_list = ' '.join(map(str, winner_loser_segment_dict[warlord][victim[0]]))
+                    line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territory,'+space_list
 				else:
 					print warlord,'claimed',victim[1],'unowned territories'
-					line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territories,'+str(winner_loser_segment_dict[warlord][victim[0]])
+					space_list = ' '.join(map(str, winner_loser_segment_dict[warlord][victim[0]]))
+                    line = str(now)+','+warlord+' claimed '+str(victim[1])+' unowned territories,'+space_list
 			else:
 				if victim[1] == 1:
 					print warlord,'conquered',victim[1],'territory from',victim[0]
-					line = str(now)+','+warlord+' conquered '+str(victim[1])+' territory from '+victim[0]+','+str(winner_loser_segment_dict[warlord][victim[0]])
+					space_list = ' '.join(map(str, winner_loser_segment_dict[warlord][victim[0]]))
+                    line = str(now)+','+warlord+' conquered '+str(victim[1])+' territory from '+victim[0]+','+space_list
 				else:
 					print warlord,'conquered',victim[1],'territories from',victim[0]
-					line = str(now)+','+warlord+' conquered '+str(victim[1])+' territories from '+victim[0]+','+str(winner_loser_segment_dict[warlord][victim[0]])
+					space_list = ' '.join(map(str, winner_loser_segment_dict[warlord][victim[0]]))
+                    line = str(now)+','+warlord+' conquered '+str(victim[1])+' territories from '+victim[0]+','+space_list
 			logfile.write(line+'\n') 
 	logfile.close()
 	
