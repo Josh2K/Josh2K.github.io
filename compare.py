@@ -3,6 +3,7 @@
 
 import sys
 import pandas as pd
+import requests
 from WarReportLogger import main_logger
 
 
