@@ -43,14 +43,14 @@
             "value": 43
         }, 
         {
+            "color": "#F72304", 
+            "label": "Henry Jenkins", 
+            "value": 25
+        }, 
+        {
             "color": "#BA9778", 
             "label": "Josh Felker", 
             "value": 23
-        }, 
-        {
-            "color": "#F72304", 
-            "label": "Henry Jenkins", 
-            "value": 20
         }, 
         {
             "color": "#DAFEFA", 
