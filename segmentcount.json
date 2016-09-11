@@ -5,17 +5,17 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 171
+            "value": 170
+        }, 
+        {
+            "color": "#8126C0", 
+            "label": "Yibing Wen", 
+            "value": 120
         }, 
         {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
             "value": 112
-        }, 
-        {
-            "color": "#8126C0", 
-            "label": "Yibing Wen", 
-            "value": 109
         }, 
         {
             "color": "#FF9233", 
@@ -28,14 +28,14 @@
             "value": 54
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 49
-        }, 
-        {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
             "value": 48
+        }, 
+        {
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
+            "value": 46
         }, 
         {
             "color": "#FBEFAE", 
@@ -45,7 +45,7 @@
         {
             "color": "#F72304", 
             "label": "Henry Jenkins", 
-            "value": 28
+            "value": 37
         }, 
         {
             "color": "#BA9778", 
