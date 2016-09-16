@@ -13,14 +13,14 @@
             "value": 121
         }, 
         {
-            "color": "#5CB1E4", 
-            "label": "Eoin Craigie", 
-            "value": 112
-        }, 
-        {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 99
+            "value": 110
+        }, 
+        {
+            "color": "#5CB1E4", 
+            "label": "Eoin Craigie", 
+            "value": 109
         }, 
         {
             "color": "#FFCDF3", 
@@ -45,12 +45,7 @@
         {
             "color": "#F72304", 
             "label": "Henry Jenkins", 
-            "value": 37
-        }, 
-        {
-            "color": "#BA9778", 
-            "label": "Josh Felker", 
-            "value": 19
+            "value": 32
         }, 
         {
             "color": "#DAFEFA", 
@@ -58,14 +53,19 @@
             "value": 19
         }, 
         {
-            "color": "#2A4BD7", 
-            "label": "Marc Devlin", 
+            "color": "#BA9778", 
+            "label": "Josh Felker", 
             "value": 17
         }, 
         {
             "color": "#1D6914", 
             "label": "Mike Sants", 
             "value": 17
+        }, 
+        {
+            "color": "#2A4BD7", 
+            "label": "Marc Devlin", 
+            "value": 16
         }, 
         {
             "color": "#FFFFFF", 
