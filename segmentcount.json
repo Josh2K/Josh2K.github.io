@@ -15,12 +15,12 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 110
+            "value": 117
         }, 
         {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
-            "value": 109
+            "value": 105
         }, 
         {
             "color": "#FFCDF3", 
@@ -45,7 +45,7 @@
         {
             "color": "#F72304", 
             "label": "Henry Jenkins", 
-            "value": 32
+            "value": 34
         }, 
         {
             "color": "#DAFEFA", 
@@ -65,7 +65,7 @@
         {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
-            "value": 16
+            "value": 14
         }, 
         {
             "color": "#FFFFFF", 
@@ -78,13 +78,13 @@
             "value": 6
         }, 
         {
-            "color": "#C7258E", 
-            "label": "Mathieu Gagné", 
-            "value": 2
-        }, 
-        {
             "color": "#575757", 
             "label": "Avalon Powell", 
+            "value": 1
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Mathieu Gagné", 
             "value": 1
         }, 
         {
