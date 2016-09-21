@@ -6,7 +6,6 @@ import os
 import shutil
 import commands
 import csv
-from bs4 import BeautifulSoup
 import json
 import requests
 import csv
@@ -21,7 +20,7 @@ def main():
     for i in range(365):
         strava1.main()
         gitcommit.main()
-        time.sleep(77682)
+        time.sleep(38841)
 
 
 if __name__ == "__main__":
