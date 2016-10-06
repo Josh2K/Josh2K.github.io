@@ -52,3 +52,4 @@ See 'git help config' and search for 'push.default' for further information.
 
 To git@github.com:Josh2K/Josh2K.github.io.git
    8fb0638..6a00678  master -> master
+HEAD is now at 3a76385 cron attempt
