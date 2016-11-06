@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 192
+            "value": 210
         }, 
         {
             "color": "#8126C0", 
@@ -15,7 +15,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 121
+            "value": 117
         }, 
         {
             "color": "#5CB1E4", 
@@ -28,11 +28,6 @@
             "value": 53
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 49
-        }, 
-        {
             "color": "#FBEFAE", 
             "label": "Leila H", 
             "value": 43
@@ -43,9 +38,14 @@
             "value": 43
         }, 
         {
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
+            "value": 43
+        }, 
+        {
             "color": "#F72304", 
             "label": "Henry Jenkins", 
-            "value": 28
+            "value": 26
         }, 
         {
             "color": "#DAFEFA", 
@@ -75,7 +75,7 @@
         {
             "color": "#29C0C0", 
             "label": "Arvind Ramanathan", 
-            "value": 6
+            "value": 5
         }, 
         {
             "color": "#575757", 
