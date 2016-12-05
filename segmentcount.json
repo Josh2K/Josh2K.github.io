@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 233
+            "value": 245
         }, 
         {
             "color": "#8126C0", 
@@ -13,14 +13,14 @@
             "value": 146
         }, 
         {
-            "color": "#FF9233", 
-            "label": "Mario Born", 
-            "value": 104
-        }, 
-        {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
             "value": 96
+        }, 
+        {
+            "color": "#FF9233", 
+            "label": "Mario Born", 
+            "value": 92
         }, 
         {
             "color": "#FFCDF3", 
