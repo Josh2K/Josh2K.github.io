@@ -3952,3 +3952,23 @@ No handlers could be found for logger "stravalib.attributes.EntityCollection"
 2017-01-11  :Henry Jenkins - 0.0
 2017-01-11  :Josh Felker - 0.0
 2017-01-11  :  ACTION:    new data added to distance.csv
+No handlers could be found for logger "stravalib.attributes.EntityCollection"
+2017-01-12  :Yibing Wen - 0.0
+2017-01-12  :Sasha Wloski - 63.9
+2017-01-12  :Arvind Ramanathan - 0.0
+2017-01-12  :Mike Sants - 0.0
+2017-01-12  :Steve Sulpizio - 0.0
+2017-01-12  :Marc Devlin - 0.0
+2017-01-12  :Patrick Santeusanio - 0.0
+2017-01-12  :Avalon Powell - 0.0
+2017-01-12  :Mario Born - 0.0
+2017-01-12  :Mathieu Gagné - 0.0
+2017-01-12  :Frank Oduro - 0.0
+2017-01-12  :Eoin Craigie - 98.3
+2017-01-12  :Laurie McQueen - 61.8
+2017-01-12  :Vitor Lima - 0.0
+2017-01-12  :Leila H - 0.0
+2017-01-12  :Vincent Trudel-Lapierre - 0.0
+2017-01-12  :Henry Jenkins - 0.0
+2017-01-12  :Josh Felker - 0.0
+2017-01-12  :  ACTION:    new data added to distance.csv

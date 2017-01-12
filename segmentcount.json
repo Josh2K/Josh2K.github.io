@@ -33,13 +33,13 @@
             "value": 43
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 42
-        }, 
-        {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
+            "value": 43
+        }, 
+        {
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
             "value": 42
         }, 
         {
