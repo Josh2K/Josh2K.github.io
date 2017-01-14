@@ -4032,3 +4032,12 @@ No handlers could be found for logger "stravalib.attributes.EntityCollection"
 2017-01-13  :Henry Jenkins - 0.0
 2017-01-13  :Josh Felker - 0.0
 2017-01-13  :  ACTION:    new data added to distance.csv
+No handlers could be found for logger "stravalib.attributes.EntityCollection"
+Traceback (most recent call last):
+  File "strava_leaderboard.py", line 158, in <module>
+    main()
+  File "strava_leaderboard.py", line 135, in main
+    outputlist.append(fetch_data(friend,now))
+  File "strava_leaderboard.py", line 105, in fetch_data
+    tablerows = tables[0].findAll('tr')
+IndexError: list index out of range
