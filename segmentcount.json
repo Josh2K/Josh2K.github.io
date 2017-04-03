@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 244
+            "value": 243
         }, 
         {
             "color": "#8126C0", 
@@ -13,19 +13,19 @@
             "value": 146
         }, 
         {
+            "color": "#FF9233", 
+            "label": "Mario Born", 
+            "value": 105
+        }, 
+        {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
             "value": 96
         }, 
         {
-            "color": "#FF9233", 
-            "label": "Mario Born", 
-            "value": 93
-        }, 
-        {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 53
+            "value": 52
         }, 
         {
             "color": "#FBEFAE", 
@@ -33,14 +33,14 @@
             "value": 43
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 43
-        }, 
-        {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
             "value": 42
+        }, 
+        {
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
+            "value": 39
         }, 
         {
             "color": "#F72304", 
