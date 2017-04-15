@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 242
+            "value": 241
         }, 
         {
             "color": "#8126C0", 
@@ -15,7 +15,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 131
+            "value": 142
         }, 
         {
             "color": "#5CB1E4", 
@@ -25,7 +25,7 @@
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 52
+            "value": 50
         }, 
         {
             "color": "#B7E628", 
@@ -43,8 +43,8 @@
             "value": 28
         }, 
         {
-            "color": "#F72304", 
-            "label": "Henry Jenkins", 
+            "color": "#88C6ED", 
+            "label": "Henry Jenkins 🚀", 
             "value": 24
         }, 
         {
@@ -88,7 +88,7 @@
             "value": 1
         }, 
         {
-            "color": "#88C6ED", 
+            "color": "#000000", 
             "label": "Mo Baakoe", 
             "value": 1
         }
