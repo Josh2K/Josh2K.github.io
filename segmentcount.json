@@ -8,29 +8,29 @@
             "value": 241
         }, 
         {
+            "color": "#FF9233", 
+            "label": "Mario Born", 
+            "value": 162
+        }, 
+        {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
             "value": 144
         }, 
         {
-            "color": "#FF9233", 
-            "label": "Mario Born", 
-            "value": 142
-        }, 
-        {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
-            "value": 96
-        }, 
-        {
-            "color": "#FFCDF3", 
-            "label": "Frank Oduro", 
-            "value": 50
+            "value": 94
         }, 
         {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
             "value": 45
+        }, 
+        {
+            "color": "#FFCDF3", 
+            "label": "Frank Oduro", 
+            "value": 44
         }, 
         {
             "color": "#FBEFAE", 
