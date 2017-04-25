@@ -10,7 +10,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 171
+            "value": 179
         }, 
         {
             "color": "#8126C0", 
@@ -23,14 +23,14 @@
             "value": 94
         }, 
         {
-            "color": "#FFCDF3", 
-            "label": "Frank Oduro", 
-            "value": 44
-        }, 
-        {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
             "value": 44
+        }, 
+        {
+            "color": "#FFCDF3", 
+            "label": "Frank Oduro", 
+            "value": 43
         }, 
         {
             "color": "#FBEFAE", 
@@ -45,7 +45,7 @@
         {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
-            "value": 26
+            "value": 25
         }, 
         {
             "color": "#DAFEFA", 
