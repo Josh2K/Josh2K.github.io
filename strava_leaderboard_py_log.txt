@@ -8455,3 +8455,23 @@ No handlers could be found for logger "stravalib.attributes.EntityCollection"
 2017-05-04  :Henry Jenkins 🚀 - 134.8
 2017-05-04  :Josh Felker - 0.0
 2017-05-04  :  ACTION:    new data added to distance.csv
+No handlers could be found for logger "stravalib.attributes.EntityCollection"
+2017-05-05  :Yibing Wen - 531.7
+2017-05-05  :Sasha Wloski - 286.5
+2017-05-05  :Arvind Ramanathan - 50.4
+2017-05-05  :Mike Sants - 98.9
+2017-05-05  :Steve Sulpizio - 0.0
+2017-05-05  :Marc Devlin - 84.4
+2017-05-05  :Patrick Santeusanio - 0.0
+2017-05-05  :Avalon Powell - 0.0
+2017-05-05  :Mario Born - 670.3
+2017-05-05  :Mathieu Gagné - 27.2
+2017-05-05  :Frank Oduro - 21.2
+2017-05-05  :Eoin Craigie - 1145.3
+2017-05-05  :Laurie McQueen - 445.7
+2017-05-05  :Vitor Lima - 231.2
+2017-05-05  :Leila H - 8.5
+2017-05-05  :Vincent Trudel-Lapierre - 0.0
+2017-05-05  :Henry Jenkins 🚀 - 138.3
+2017-05-05  :Josh Felker - 0.0
+2017-05-05  :  ACTION:    new data added to distance.csv
