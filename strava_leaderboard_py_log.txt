@@ -8475,3 +8475,17 @@ No handlers could be found for logger "stravalib.attributes.EntityCollection"
 2017-05-05  :Henry Jenkins 🚀 - 138.3
 2017-05-05  :Josh Felker - 0.0
 2017-05-05  :  ACTION:    new data added to distance.csv
+Traceback (most recent call last):
+  File "strava_leaderboard.py", line 158, in <module>
+    main()
+  File "strava_leaderboard.py", line 126, in main
+    athlete = client.get_athlete()
+  File "/usr/local/lib/python2.7/dist-packages/stravalib/client.py", line 212, in get_athlete
+    raw = self.protocol.get('/athlete')
+  File "/usr/local/lib/python2.7/dist-packages/stravalib/protocol.py", line 246, in get
+    return self._request(url, params=params, check_for_errors=check_for_errors, use_webhook_server=use_webhook_server)
+  File "/usr/local/lib/python2.7/dist-packages/stravalib/protocol.py", line 170, in _request
+    self._handle_protocol_error(raw)
+  File "/usr/local/lib/python2.7/dist-packages/stravalib/protocol.py", line 215, in _handle_protocol_error
+    raise x
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error [None]
