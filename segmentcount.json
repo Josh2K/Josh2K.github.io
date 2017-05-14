@@ -10,7 +10,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 196
+            "value": 219
         }, 
         {
             "color": "#8126C0", 
@@ -20,7 +20,7 @@
         {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
-            "value": 94
+            "value": 90
         }, 
         {
             "color": "#B7E628", 
@@ -28,19 +28,19 @@
             "value": 45
         }, 
         {
-            "color": "#FFCDF3", 
-            "label": "Frank Oduro", 
-            "value": 43
-        }, 
-        {
             "color": "#FBEFAE", 
             "label": "Leila H", 
             "value": 42
         }, 
         {
-            "color": "#88C6ED", 
+            "color": "#C7258E", 
             "label": "Henry Jenkins 🚀", 
-            "value": 36
+            "value": 38
+        }, 
+        {
+            "color": "#FFCDF3", 
+            "label": "Frank Oduro", 
+            "value": 38
         }, 
         {
             "color": "#A03D3D", 
@@ -70,7 +70,7 @@
         {
             "color": "#FFFFFF", 
             "label": "Patrick Santeusanio", 
-            "value": 8
+            "value": 7
         }, 
         {
             "color": "#29C0C0", 
@@ -78,7 +78,7 @@
             "value": 5
         }, 
         {
-            "color": "#C7258E", 
+            "color": "#88C6ED", 
             "label": "Mathieu Gagné", 
             "value": 2
         }, 
