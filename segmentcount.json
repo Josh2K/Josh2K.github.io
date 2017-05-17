@@ -5,7 +5,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 258
+            "value": 263
         }, 
         {
             "color": "#FF9233", 
@@ -23,13 +23,13 @@
             "value": 90
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 45
-        }, 
-        {
             "color": "#FBEFAE", 
             "label": "Leila H", 
+            "value": 42
+        }, 
+        {
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
             "value": 42
         }, 
         {
