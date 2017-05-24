@@ -5,12 +5,12 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 276
+            "value": 267
         }, 
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 226
+            "value": 230
         }, 
         {
             "color": "#8126C0", 
@@ -48,14 +48,9 @@
             "value": 19
         }, 
         {
-            "color": "#2A4BD7", 
-            "label": "Marc Devlin", 
-            "value": 15
-        }, 
-        {
             "color": "#BA9778", 
             "label": "Josh Felker", 
-            "value": 15
+            "value": 14
         }, 
         {
             "color": "#1D6914", 
@@ -66,6 +61,11 @@
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
             "value": 14
+        }, 
+        {
+            "color": "#2A4BD7", 
+            "label": "Marc Devlin", 
+            "value": 13
         }, 
         {
             "color": "#FFFFFF", 
