@@ -314,3 +314,4 @@ remote: warning: See http://git.io/iEPt8g for more information.
 remote: warning: File strava1_py_log.txt is 79.67 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
 To git@github.com:Josh2K/Josh2K.github.io.git
    d99b507..d348b74  master -> master
+HEAD is now at b71299f fixed Henry more
