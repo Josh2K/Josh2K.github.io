@@ -174,8 +174,8 @@ def retry_get_segment(client,j):
     return client.get_segment(j)
 
 @retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
-def retry_get_leaderboard(client,j):
-    return client.get_segment_leaderboard(j,following=True)
+def retry_get_leaderboard(client,j,club):
+    return client.get_segment_leaderboard(j,club_id=club)
 
  
 def main():
@@ -203,6 +203,7 @@ def main():
         if x in segmentlist:
             segmentlist.remove(x)
         
+    club = 202883
     client = Client(access_token='76824abf6abf903eb3d8b0bde83625135c0be0ec')
     athlete = client.get_athlete()
     print("Hello, {}. I know your email is {}".format(athlete.firstname, athlete.email))
@@ -229,7 +230,7 @@ def main():
         segment = retry_get_segment(client,j)
                         
         try:
-            leaderboard = retry_get_leaderboard(client,j)
+            leaderboard = retry_get_leaderboard(client,j,club)
             if not leaderboard:
                 topguy = 'UNCLAIMED'
             else:
