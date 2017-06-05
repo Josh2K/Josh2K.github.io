@@ -3,19 +3,19 @@
     "key": "Segment Count", 
     "values": [
         {
-            "color": "#FFEE33", 
-            "label": "Sasha Wloski", 
-            "value": 267
-        }, 
-        {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 262
+            "value": 275
+        }, 
+        {
+            "color": "#FFEE33", 
+            "label": "Sasha Wloski", 
+            "value": 265
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 144
+            "value": 148
         }, 
         {
             "color": "#5CB1E4", 
@@ -33,14 +33,14 @@
             "value": 42
         }, 
         {
-            "color": "#C7258E", 
-            "label": "Henry Jenkins 🚀", 
-            "value": 36
-        }, 
-        {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
             "value": 33
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Henry Jenkins 🚀", 
+            "value": 32
         }, 
         {
             "color": "#2A4BD7", 
@@ -48,18 +48,18 @@
             "value": 21
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 15
-        }, 
-        {
             "color": "#BA9778", 
             "label": "Josh Felker", 
-            "value": 14
+            "value": 13
         }, 
         {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
+            "value": 12
+        }, 
+        {
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
             "value": 12
         }, 
         {
