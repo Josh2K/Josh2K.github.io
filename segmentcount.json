@@ -68,12 +68,17 @@
             "value": 5
         }, 
         {
+            "color": "#575757", 
+            "label": "Diwakar R", 
+            "value": 5
+        }, 
+        {
             "color": "#88C6ED", 
             "label": "Mathieu Gagné", 
             "value": 2
         }, 
         {
-            "color": "#000000", 
+            "color": "#575757", 
             "label": "Mo Baakoe", 
             "value": 1
         }
