@@ -55,7 +55,7 @@
         {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
-            "value": 11
+            "value": 10
         }, 
         {
             "color": "#DAFEFA", 
@@ -80,6 +80,11 @@
         {
             "color": "#575757", 
             "label": "Mo Baakoe", 
+            "value": 1
+        }, 
+        {
+            "color": "#000000", 
+            "label": "Tengfei Han", 
             "value": 1
         }
     ]
