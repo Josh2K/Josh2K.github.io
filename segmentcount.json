@@ -40,7 +40,7 @@
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 33
+            "value": 32
         }, 
         {
             "color": "#2A4BD7", 
@@ -55,12 +55,17 @@
         {
             "color": "#A03D3D", 
             "label": "Laurie McQueen", 
-            "value": 10
+            "value": 9
         }, 
         {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
             "value": 9
+        }, 
+        {
+            "color": "#000000", 
+            "label": "Tengfei Han", 
+            "value": 7
         }, 
         {
             "color": "#29C0C0", 
@@ -80,11 +85,6 @@
         {
             "color": "#575757", 
             "label": "Mo Baakoe", 
-            "value": 1
-        }, 
-        {
-            "color": "#000000", 
-            "label": "Tengfei Han", 
             "value": 1
         }
     ]
