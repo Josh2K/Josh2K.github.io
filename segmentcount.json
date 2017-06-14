@@ -5,7 +5,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 292
+            "value": 291
         }, 
         {
             "color": "#FFEE33", 
@@ -53,29 +53,34 @@
             "value": 13
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 9
-        }, 
-        {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
             "value": 9
         }, 
         {
-            "color": "#000000", 
+            "color": "#A03D3D", 
+            "label": "Laurie McQueen", 
+            "value": 8
+        }, 
+        {
+            "color": "#29C0C0", 
             "label": "Tengfei Han", 
             "value": 7
         }, 
         {
-            "color": "#29C0C0", 
+            "color": "#575757", 
             "label": "Arvind Ramanathan", 
             "value": 5
         }, 
         {
-            "color": "#575757", 
+            "color": "#C7258E", 
             "label": "Diwakar R", 
             "value": 5
+        }, 
+        {
+            "color": "#000000", 
+            "label": "Antoine Duplantie-Grenier", 
+            "value": 3
         }, 
         {
             "color": "#88C6ED", 
