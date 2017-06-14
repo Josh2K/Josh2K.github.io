@@ -210,7 +210,7 @@ def main():
     josh_friends = client.get_athlete_friends(5991862)
     print "Starting...."        
     #colors
-    colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000','88C6ED','F72304']
+    colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000','88C6ED','575757','F72304']
     
     segoutfile = open('segoutput.csv', 'w')
     segoutfile.write('id,latitude,longitude,name,type,color,segment_name,segment_id,url'+'\n')
