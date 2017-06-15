@@ -15,7 +15,7 @@
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 146
+            "value": 147
         }, 
         {
             "color": "#5CB1E4", 
@@ -33,9 +33,9 @@
             "value": 42
         }, 
         {
-            "color": "#C7258E", 
+            "color": "#F72304", 
             "label": "Henry Jenkins 🚀", 
-            "value": 33
+            "value": 35
         }, 
         {
             "color": "#FFCDF3", 
@@ -58,11 +58,6 @@
             "value": 9
         }, 
         {
-            "color": "#A03D3D", 
-            "label": "Laurie McQueen", 
-            "value": 8
-        }, 
-        {
             "color": "#29C0C0", 
             "label": "Tengfei Han", 
             "value": 7
@@ -78,12 +73,12 @@
             "value": 5
         }, 
         {
-            "color": "#000000", 
+            "color": "#575757", 
             "label": "Antoine Duplantie-Grenier", 
             "value": 3
         }, 
         {
-            "color": "#88C6ED", 
+            "color": "#575757", 
             "label": "Mathieu Gagné", 
             "value": 2
         }, 
