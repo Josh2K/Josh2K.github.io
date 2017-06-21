@@ -63,13 +63,13 @@
             "value": 6
         }, 
         {
-            "color": "#575757", 
-            "label": "Arvind Ramanathan", 
-            "value": 5
-        }, 
-        {
             "color": "#29C0C0", 
             "label": "Tengfei Han", 
+            "value": 6
+        }, 
+        {
+            "color": "#575757", 
+            "label": "Arvind Ramanathan", 
             "value": 5
         }, 
         {
