@@ -30,7 +30,7 @@
         {
             "color": "#FBEFAE", 
             "label": "Leila H", 
-            "value": 42
+            "value": 43
         }, 
         {
             "color": "#F72304", 
@@ -58,11 +58,6 @@
             "value": 8
         }, 
         {
-            "color": "#C7258E", 
-            "label": "Diwakar R", 
-            "value": 6
-        }, 
-        {
             "color": "#29C0C0", 
             "label": "Tengfei Han", 
             "value": 6
@@ -70,6 +65,11 @@
         {
             "color": "#575757", 
             "label": "Arvind Ramanathan", 
+            "value": 5
+        }, 
+        {
+            "color": "#C7258E", 
+            "label": "Diwakar R", 
             "value": 5
         }, 
         {
