@@ -5,47 +5,52 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 348
+            "value": 345
         }, 
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 255
+            "value": 254
         }, 
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 142
+            "value": 124
+        }, 
+        {
+            "color": "#F72304", 
+            "label": "Michael Burkat", 
+            "value": 94
         }, 
         {
             "color": "#5CB1E4", 
             "label": "Eoin Craigie", 
-            "value": 71
+            "value": 69
         }, 
         {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
-            "value": 57
+            "value": 47
         }, 
         {
             "color": "#FBEFAE", 
             "label": "Leila H", 
-            "value": 43
+            "value": 35
         }, 
         {
-            "color": "#F72304", 
+            "color": "#575757", 
             "label": "Henry Jenkins 🚀", 
-            "value": 33
+            "value": 32
         }, 
         {
             "color": "#FFCDF3", 
             "label": "Frank Oduro", 
-            "value": 31
+            "value": 28
         }, 
         {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
-            "value": 26
+            "value": 25
         }, 
         {
             "color": "#BA9778", 
@@ -58,11 +63,6 @@
             "value": 8
         }, 
         {
-            "color": "#29C0C0", 
-            "label": "Tengfei Han", 
-            "value": 6
-        }, 
-        {
             "color": "#575757", 
             "label": "Arvind Ramanathan", 
             "value": 5
@@ -70,6 +70,11 @@
         {
             "color": "#C7258E", 
             "label": "Diwakar R", 
+            "value": 5
+        }, 
+        {
+            "color": "#29C0C0", 
+            "label": "Tengfei Han", 
             "value": 5
         }, 
         {
@@ -83,7 +88,7 @@
             "value": 2
         }, 
         {
-            "color": "#575757", 
+            "color": "#88C6ED", 
             "label": "Mathieu Gagné", 
             "value": 1
         }
