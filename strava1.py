@@ -151,7 +151,7 @@ def getSec(s):
     return int(l[0]) * 3600 + int(l[1]) * 60 + int(l[2])
 
 
-def segment_details(num,segment,topguy,friend_colour_dict):
+def segment_details(num,segment,topguy,friend_df):
 
     id = num + 1
     segment_id = segment.id
@@ -163,8 +163,9 @@ def segment_details(num,segment,topguy,friend_colour_dict):
     start_longitude = segment.start_longitude
     end_latitude = segment.end_latitude
     end_longitude = segment.end_longitude
+    colour = friend_df.loc[friend_df['name'] == topguy,'colour'].values[0]
 
-    tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(friend_colour_dict[topguy]),str(segment_name),str(segment_id),str(url))
+    tuple=(str(num),str(start_latitude),str(start_longitude),str(segment_name)+':  ['+str(topguy)+']',str(topguy),str(colour),str(segment_name),str(segment_id),str(url))
     now = datetime.datetime.now().strftime('%Y-%m-%d')
     print '\r'+str(now)+': ID: '+str(id)+'     Segment ID:  '+str(segment_id)+'   Owner:  '+str(topguy),
     return tuple
@@ -191,38 +192,24 @@ def main():
     for line in reader:
         segmentlist.append(line["Segment Id"])
 
-    #get rid of badsegments
-    badsegments = []
-    badinfile = open('bad_segments.csv')
-    badreader = csv.DictReader(badinfile)
-    for line in badreader:
-        badsegments.append(line["Segment Id"])
-    print 'Bad Segments: '+str(badsegments)
     
-    for x in badsegments:
-        if x in segmentlist:
-            segmentlist.remove(x)
-        
     club = 202883
     client = Client(access_token='76824abf6abf903eb3d8b0bde83625135c0be0ec')
     athlete = client.get_athlete()
     print("Hello, {}. I know your email is {}".format(athlete.firstname, athlete.email))
     josh_friends = client.get_athlete_friends(5991862)
     print "Starting...."        
-    #colors
-    colours = ['575757','FFCDF3','FFEE33','FF9233','29D0D0','8126C0','814A19','1D6914','2A4BD7','AD2323','000000','88C6ED','575757','F72304']
-    
+        
     segoutfile = open('segoutput.csv', 'w')
     segoutfile.write('id,latitude,longitude,name,type,color,segment_name,segment_id,url'+'\n')
     segoutputlist = []
 
-    friend_colour_dict = {}
-    friend_colour_file = open('friend_colour.csv')
-    colourreader = csv.DictReader(friend_colour_file)
-    for line in colourreader:
-        friend_colour_dict[line["name"]] = line["colour"]
-
+    
+    friend_df = pd.read_csv('friend_colour_new.csv',index_col=False)
+    print friend_df
+    
     friend_count_dict = {}
+    
            
     
     for num,j in enumerate(segmentlist):
@@ -233,13 +220,21 @@ def main():
             leaderboard = retry_get_leaderboard(client,j,club)
             if not leaderboard:
                 topguy = 'UNCLAIMED'
+                topguy_id = 0
+                 
             else:
                 topguy = leaderboard[0].athlete_name
+                topguy_id = leaderboard[0].athlete_id
+                           
                             
-            if not topguy in friend_colour_dict:
-                friend_colour_dict[topguy] = colours.pop()
-                print str(topguy)+' not in friend_colour_dict, popping colour: '+ str(friend_colour_dict[topguy])
+            if not topguy_id in friend_df['id'].values:
+                new_friend = {'name': topguy, 'id':topguy_id, 'colour':'646464'}
+                friend_df = friend_df.append(new_friend, ignore_index=True)
+              
+                              
+                
 
+            
             if topguy in friend_count_dict:
                 friend_count_dict[topguy] += 1
             else:
@@ -247,15 +242,16 @@ def main():
 
                       
             
-            for z in segment_details(num,segment,topguy,friend_colour_dict):
+            for z in segment_details(num,segment,topguy,friend_df):
                 segoutfile.write(str(z)+',')
             segoutfile.write('\n')
             
+            
    
         except Exception:
-            #badoutfile = open('bad_segments.csv', 'a+')
-            #badoutfile.write(str(j)+','+'\n')
-            #badoutfile.close()
+            badoutfile = open('bad_segments.csv', 'a+')
+            badoutfile.write(str(j)+','+'\n')
+            badoutfile.close()
             pass
 
     
@@ -268,7 +264,7 @@ def main():
     for x in friend_count_dict:
         if x != 'UNCLAIMED':
             print str(x)+': '+str(friend_count_dict[x])
-            segcountoutfile.write(str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
+            segcountoutfile.write(str(x)+','+str(friend_df.loc[friend_df['name'] == x,'colour'].values[0])+','+str(friend_count_dict[x])+'\n')
     segcountoutfile.write('\n')
     segcountoutfile.close()
     json_convert_segmentcount()
@@ -280,7 +276,7 @@ def main():
     nowdate = datetime.datetime.now().strftime('%Y-%m-%d')
     for x in friend_count_dict:
         if x != 'UNCLAIMED':
-            segcountovertimefile.write(str(nowdate)+','+str(x)+','+str(friend_colour_dict[x])+','+str(friend_count_dict[x])+'\n')
+            segcountovertimefile.write(str(nowdate)+','+str(x)+','+str(friend_df.loc[friend_df['name'] == x,'colour'].values[0])+','+str(friend_count_dict[x])+'\n')
     segcountovertimefile.close()
     trim_count_overtime()
     json_convert_trim_count_overtime()
@@ -299,8 +295,7 @@ def main():
 
     # strava1_segment main
     res = requests.get("https://nosnch.in/26ba53ff3d")
-    
-    
+      
     
               
 
