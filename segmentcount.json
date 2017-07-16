@@ -5,7 +5,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 358
+            "value": 362
         }, 
         {
             "color": "#FFEE33", 
@@ -20,12 +20,12 @@
         {
             "color": "#C7258E", 
             "label": "Michael Burkat", 
-            "value": 97
+            "value": 96
         }, 
         {
             "color": "#F72304", 
             "label": "Henry Jenkins 🚀", 
-            "value": 82
+            "value": 81
         }, 
         {
             "color": "#5CB1E4", 
@@ -33,13 +33,13 @@
             "value": 68
         }, 
         {
-            "color": "#FBEFAE", 
-            "label": "Leila H", 
-            "value": 35
-        }, 
-        {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
+            "value": 36
+        }, 
+        {
+            "color": "#FBEFAE", 
+            "label": "Leila H", 
             "value": 35
         }, 
         {
@@ -60,7 +60,7 @@
         {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
-            "value": 8
+            "value": 7
         }, 
         {
             "color": "#646464", 
