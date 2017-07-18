@@ -91,6 +91,11 @@
             "color": "#646464", 
             "label": "Mathieu Gagné", 
             "value": 1
+        }, 
+        {
+            "color": "#646464", 
+            "label": "Sandeep Bharadwaj", 
+            "value": 1
         }
     ]
 }
