@@ -10,7 +10,7 @@
         {
             "color": "#FFEE33", 
             "label": "Sasha Wloski", 
-            "value": 259
+            "value": 264
         }, 
         {
             "color": "#8126C0", 
@@ -25,7 +25,7 @@
         {
             "color": "#F72304", 
             "label": "Henry Jenkins 🚀", 
-            "value": 81
+            "value": 80
         }, 
         {
             "color": "#5CB1E4", 
@@ -33,14 +33,14 @@
             "value": 68
         }, 
         {
-            "color": "#B7E628", 
-            "label": "Vitor Lima", 
-            "value": 36
-        }, 
-        {
             "color": "#FBEFAE", 
             "label": "Leila H", 
             "value": 35
+        }, 
+        {
+            "color": "#B7E628", 
+            "label": "Vitor Lima", 
+            "value": 34
         }, 
         {
             "color": "#FFCDF3", 
@@ -50,7 +50,7 @@
         {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
-            "value": 23
+            "value": 27
         }, 
         {
             "color": "#BA9778", 
