@@ -5,7 +5,7 @@
         {
             "color": "#FF9233", 
             "label": "Mario Born", 
-            "value": 374
+            "value": 371
         }, 
         {
             "color": "#FFEE33", 
@@ -15,12 +15,12 @@
         {
             "color": "#8126C0", 
             "label": "Yibing Wen", 
-            "value": 124
+            "value": 123
         }, 
         {
             "color": "#C7258E", 
             "label": "Michael Burkat", 
-            "value": 94
+            "value": 92
         }, 
         {
             "color": "#F72304", 
@@ -43,13 +43,13 @@
             "value": 35
         }, 
         {
-            "color": "#FFCDF3", 
-            "label": "Frank Oduro", 
-            "value": 28
-        }, 
-        {
             "color": "#2A4BD7", 
             "label": "Marc Devlin", 
+            "value": 27
+        }, 
+        {
+            "color": "#FFCDF3", 
+            "label": "Frank Oduro", 
             "value": 27
         }, 
         {
