@@ -20,7 +20,7 @@
         {
             "color": "#C7258E", 
             "label": "Michael Burkat", 
-            "value": 100
+            "value": 99
         }, 
         {
             "color": "#F72304", 
@@ -80,11 +80,16 @@
         {
             "color": "#646464", 
             "label": "Tengfei Han", 
-            "value": 4
+            "value": 3
         }, 
         {
             "color": "#646464", 
             "label": "Mo Baakoe", 
+            "value": 2
+        }, 
+        {
+            "color": "#646464", 
+            "label": "Cameron Mackey", 
             "value": 2
         }, 
         {
