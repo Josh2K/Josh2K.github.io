@@ -33,14 +33,14 @@
             "value": 67
         }, 
         {
-            "color": "#FBEFAE", 
-            "label": "Leila H", 
-            "value": 36
-        }, 
-        {
             "color": "#B7E628", 
             "label": "Vitor Lima", 
             "value": 36
+        }, 
+        {
+            "color": "#FBEFAE", 
+            "label": "Leila H", 
+            "value": 35
         }, 
         {
             "color": "#2A4BD7", 
