@@ -63,6 +63,11 @@
             "value": 9
         }, 
         {
+            "color": "#646464", 
+            "label": "Cameron Mackey", 
+            "value": 8
+        }, 
+        {
             "color": "#DAFEFA", 
             "label": "Vincent Trudel-Lapierre", 
             "value": 6
@@ -71,11 +76,6 @@
             "color": "#1D6914", 
             "label": "Arvind Ramanathan", 
             "value": 5
-        }, 
-        {
-            "color": "#646464", 
-            "label": "Cameron Mackey", 
-            "value": 4
         }, 
         {
             "color": "#646464", 
