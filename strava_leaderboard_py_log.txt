@@ -29421,3 +29421,15 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/OpenSSL/SSL.py", line 118, in <module>
     SSL_ST_INIT = _lib.SSL_ST_INIT
 AttributeError: 'module' object has no attribute 'SSL_ST_INIT'
+Traceback (most recent call last):
+  File "strava_leaderboard.py", line 10, in <module>
+    import requests
+  File "/usr/local/lib/python2.7/dist-packages/requests/__init__.py", line 84, in <module>
+    from urllib3.contrib import pyopenssl
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/contrib/pyopenssl.py", line 46, in <module>
+    import OpenSSL.SSL
+  File "/usr/lib/python2.7/dist-packages/OpenSSL/__init__.py", line 8, in <module>
+    from OpenSSL import rand, crypto, SSL
+  File "/usr/lib/python2.7/dist-packages/OpenSSL/SSL.py", line 118, in <module>
+    SSL_ST_INIT = _lib.SSL_ST_INIT
+AttributeError: 'module' object has no attribute 'SSL_ST_INIT'
