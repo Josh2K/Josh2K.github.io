@@ -98,3 +98,8 @@ Scatter_Plot2(df_cumsum,'name','date','count','lines','count','tozeroy','stacked
 #bar graph of current segment count snapshot:
 df_snapshot = pd.read_csv('segmentcount.csv')
 Bar_Plot(df_snapshot,'name','date','count','lines','count','tozeroy','segment_count_snapshot')
+
+#distance list graph:
+#line graph of segments over time:
+df_distance = pd.read_csv('distance.csv')
+Scatter_Plot2(df_distance,'name','datetime','distance','lines','distance','','distance')

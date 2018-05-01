@@ -8,4 +8,3 @@ python segment_plots.py >> segment_plots.py_log_txt 2>&1
 git add .
 git commit -a -m 'cron attempt'
 git push
-
